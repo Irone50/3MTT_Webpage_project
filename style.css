@@ -1,0 +1,204 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav{
+    display: flex;
+    column-gap: 10px;
+}
+
+.logo{
+    color: green;
+    margin: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-list{
+    display: flex;
+    column-gap: 5px;
+    list-style: none;
+    /* margin-left: 20px; */
+}
+
+.nav-items{
+    padding: 10px 20px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-items a:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.nav-p{
+    justify-content: end;
+    align-items: end;
+    padding-left: 250px;
+}
+
+.green{
+    color: green;
+    font-size: x-large;
+}
+
+.medium{
+    margin-left: 60px;
+}
+
+.section1 {
+    /* margin: auto; */
+    padding: 30px;
+    background-image: url("../Images/Real\ estate1.jpg");
+    background-size: 800px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 50px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-reflect: left 0px linear-gradient(to right)
+    /* background-image: linear-gradient(to right, white, blue); */
+    
+}
+
+.btn{
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: medium;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.section2{
+    margin: 50px 100px;
+}
+
+.medicare{
+    display: flex;
+    column-gap: 50px;
+}
+
+.section3{
+    background-color: rgb(38, 38, 82);
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section3 h1{
+    font-size: xx-large;
+    /* margin-top: 2px; */
+}
+
+.section3 p{
+    font-size: larger;
+}
+
+.section4{
+    display: flex;
+    column-gap: 20px;
+    padding: 20px 0;
+}
+
+.team{
+    padding: 0 100px;
+    padding-bottom: 30px;
+}
+
+.hr{
+    margin: 70px;
+}
+
+.careers, .careers-img{
+    padding: 30px;
+}
+
+.careers-team{
+    color: green;
+}
+
+.btns{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: medium;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.btns:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.section5{
+    background-color: #ccc;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.section5 h2{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.emma-bob{
+    display: flex;
+}
+
+.one, .two{
+    display: flex;
+    column-gap: 30px;
+    padding-left: 20px;
+}
+
+.footer{
+    padding: 30px;
+}
+
+.pro-en-co{
+    display: flex;
+    column-gap: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-flex{
+    display: flex;
+    column-gap: 450px;
+}
+
+.blue{
+    color: navy;
+}
+
+.bottom{
+    border: 1px solid rgb(229, 225, 225);
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 500px) {
+    *{
+        flex-wrap: wrap;
+        /* width: 100%; */
+    }
+}
